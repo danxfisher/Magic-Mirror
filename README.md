@@ -1,6 +1,6 @@
 # My Magic Mirror
 
-A simple webpage for a Raspberry Pi magic mirror, updated every 10 seconds.
+A simple webpage for a Raspberry Pi magic mirror that updates every 10 seconds.
 
 Within the `js/scripts.js` file, change `ENTER_CITY` and `ENTER_STATE` with your location:
 
