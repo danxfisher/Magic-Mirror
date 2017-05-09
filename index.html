@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+        <title>My Magic Mirror</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/icons.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="mirror-container">
+            <div id="left">
+                <div id="time"></div>
+                <div id="date"></div>
+            </div>
+            <div id="right">
+                <div id="weather-icon">
+                        <div class="icon moon night-clear">
+                            <div class="moon-outer">
+                            <div class="moon-wrap">
+                                <div class="moon-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="icon moon night-partly-cloudy">
+                        <div class="cloud"></div>
+                        <div class="moon-outer">
+                            <div class="moon-wrap">
+                                <div class="moon-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="icon moon night-shower">
+                        <div class="cloud"></div>
+                        <div class="moon-outer">
+                            <div class="moon-wrap">
+                                <div class="moon-inner"></div>
+                            </div>
+                        </div>
+                        <div class="rain"></div>
+                    </div>
+
+                    <div class="icon partly-sunny">
+                        <div class="cloud"></div>
+                        <div class="sun">
+                            <div class="rays"></div>
+                        </div>
+                    </div>
+
+                    <div class="icon sun-shower">
+                        <div class="cloud"></div>
+                        <div class="sun">
+                            <div class="rays"></div>
+                        </div>
+                        <div class="rain"></div>
+                    </div>
+
+                    <div class="icon thunder-storm">
+                            <div class="cloud"></div>
+                        <div class="lightning">
+                            <div class="bolt"></div>
+                            <div class="bolt"></div>
+                        </div>
+                    </div>
+
+                    <div class="icon cloudy">
+                        <div class="cloud"></div>
+                        <div class="cloud"></div>
+                    </div>
+
+                    <div class="icon flurries">
+                        <div class="cloud"></div>
+                        <div class="snow">
+                            <div class="flake"></div>
+                            <div class="flake"></div>
+                        </div>
+                    </div>
+
+                    <div class="icon sunny">
+                        <div class="sun">
+                            <div class="rays"></div>
+                        </div>
+                    </div>
+
+                    <div class="icon rainy">
+                        <div class="cloud"></div>
+                        <div class="rain"></div>
+                    </div>
+                </div>
+                <div id="weather"></div>
+            </div>
+        </div>
+
+        <div id="greeting"></div>
+
+        <script src="js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="js/vendor/moment.js"></script>
+        <script src="js/vendor/jquery.simpleWeather.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

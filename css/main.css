@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    //padding: 10px 50px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+} 
+
+#greeting {
+    text-align: center;
+    font-size: 2.5em;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+
+#time {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#date {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+    clear: both;
+}
+
+.mirror-container {    
+    padding: 10px 50px;
+    width: 100%;
+    height: auto;
+}
+
+#weather-icon {
+    float:left;
+    clear: both;
+}
+
+#weather {
+    float: right;
+    margin-top: -6px;
+    color: #fff;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#weather-temp {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+#weather ul {
+    margin: 0;
+    font-weight: 300;
+}
+
+#weather li {
+    text-align: right;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+#weather li span {
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+#city {
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 8px;
+}
+
+#currently {
+    font-weight: 300;
+}
+
+#currently span {
+    font-weight: 500;
+}
+
+.partly-sunny, .sun-shower, .thunder-storm, .cloudy, .flurries, .sunny, .rainy, .night-clear, .night-partly-cloudy, .night-shower {
+    display: none;
+}
+
+.night-clear{
+    margin-top: -15px;
+}
+
+.night-partly-cloudy {
+    margin-top: -15px;
+}
+
+.night-shower {
+    margin-top: -15px;
+}
+
+.partly-sunny {
+    padding-right: 60px;
+    margin-top: -15px;
+}
+
+.sun-shower {
+    padding-right: 60px;
+    margin-top: -15px;
+}
+
+.thunder-storm {
+    padding-right: 50px;
+    margin-top: -32px;
+}
+
+.cloudy {
+    padding-right: 50px;
+    margin-top: -32px;
+}
+
+.flurries {
+    padding-right: 50px;
+    margin-top: -32px;	
+}
+
+.sunny {
+    padding-right: 50px;
+    margin-top: -20px;
+}
+
+.rainy {
+    padding-right: 50px;
+    margin-top: -32px;
+}
