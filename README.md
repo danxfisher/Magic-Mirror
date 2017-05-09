@@ -16,7 +16,7 @@ $.simpleWeather({
 
 ```
 
-And also, add your quotes in the "quote generator" function:
+Then add your quotes in the "quote generator" function:
 
 ```
 ...
